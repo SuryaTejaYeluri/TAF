@@ -1,0 +1,22 @@
+Project_Name = TestAutomation
+
+URL = https://www.google.co.in/
+
+Environment = test
+
+#Test suite names separated by comma
+TestSuiteName = GenRGN
+
+BrowserName = chrome
+
+WaitTimeInSeconds = 90
+
+CloseBrowserAfterExecution = Yes
+
+StaticData_DefaultFileName = StaticData
+testData_DefaultSheetName = testData
+
+#Screenshots
+PassedSteps = true
+FailedSteps = true
+
